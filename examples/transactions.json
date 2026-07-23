@@ -1,0 +1,18 @@
+[
+  {
+    "account_id": "ACC-100",
+    "destination_account_id": "ACC-200",
+    "amount": 250.50,
+    "currency": "BRL",
+    "occurred_at": "2026-07-22T14:30:00Z",
+    "destination_account_created_at": "2025-01-10T10:00:00Z"
+  },
+  {
+    "account_id": "ACC-100",
+    "destination_account_id": "ACC-NEW",
+    "amount": 25000,
+    "currency": "BRL",
+    "occurred_at": "2026-07-22T02:30:00Z",
+    "destination_account_created_at": "2026-07-20T02:30:00Z"
+  }
+]

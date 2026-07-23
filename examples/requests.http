@@ -1,0 +1,21 @@
+### Health check
+GET http://127.0.0.1:8000/health
+
+### Consultar regras
+GET http://127.0.0.1:8000/config/rules
+
+### Registrar transacao suspeita
+POST http://127.0.0.1:8000/transactions
+Content-Type: application/json
+
+{
+  "account_id": "ACC-100",
+  "destination_account_id": "ACC-NEW",
+  "amount": 25000,
+  "currency": "BRL",
+  "occurred_at": "2026-07-22T02:30:00Z",
+  "destination_account_created_at": "2026-07-20T02:30:00Z"
+}
+
+### Listar suspeitas
+GET http://127.0.0.1:8000/transactions/suspicious
